@@ -12,7 +12,9 @@
 <body>
     <h1>Angular Data APIs!</h1>
     <div ng-controller="APIController">
-
+        <div ng-repeat="item in responseObject">
+            <p>{{item.name}}</p>
+        </div>
 
     </div>
 </body>
