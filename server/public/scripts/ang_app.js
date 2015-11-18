@@ -12,7 +12,7 @@ myApp.controller('APIController', ['$scope', '$http', function($scope, $http) {
     var responseArray = [];
     $http.jsonp(finalURL).then(
         function(response) {
-            responseArray = response.data;
+            responseArray = response.data.results;
             console.log(responseArray);
         }
     );

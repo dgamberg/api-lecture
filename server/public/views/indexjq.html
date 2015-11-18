@@ -8,11 +8,13 @@
     <!-- jQuery -->
     <script type="text/javascript" src="/vendors/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/app.js"></script>
-
 </head>
 <body>
-    <h1>jQuery Data APIs!</h1>
-
-    <div id="outputContainer"></div>
+    <div style="margin-bottom: 25px;" class="container">
+        <h4>JQuery API Demo</h4>
+        <input ng-model="searchTerm" type="text" id="searchTerm"/>
+        <button id="searchButton" class="btn btn-primary">Search Giant Bomb</button>
+    </div>
+    <div class="container" id="outputContainer"></div>
 </body>
 </html>
